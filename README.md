@@ -6,7 +6,9 @@
 
 - **Operacoes basicas**: Realiza somas, subtracoes,multiplicacoes e divisoes com facilidade.
 - **Validacao de entrada**: A calculadora garante que apenas opcoes validas sejam aceitas.
-- **Interface Grafica**: A calculadora apresenta uma interface grafica para maior facilidade. 
+- **Interface Grafica**: A calculadora apresenta uma interface grafica para maior facilidade.
+
+<img src="https://github.com/LeoDallago/CalculadoraWinApp/assets/111309046/b945a77d-9c61-491f-970e-2da000d6eed4" width=500/>
 ____
 
 ## Como usar
