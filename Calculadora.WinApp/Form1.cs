@@ -26,7 +26,7 @@ namespace Calculadora.WinApp
                 int calculo = num1Convertido + num2Convertido;
                 string resultado = Convert.ToString(calculo);
                 lblResultado.Text = resultado;
-                Historico.Items.Add(num1Convertido + "+" + num2Convertido + "=" + resultado);
+                Historico.Items.Add(num1Convertido + " + " + num2Convertido + " = " + resultado);
             }
 
             if (rbSubtracao.Checked)
@@ -34,7 +34,7 @@ namespace Calculadora.WinApp
                 int calculo = num1Convertido - num2Convertido;
                 string resultado = Convert.ToString(calculo);
                 lblResultado.Text = resultado;
-                Historico.Items.Add(num1Convertido + "-" + num2Convertido + "=" + resultado);
+                Historico.Items.Add(num1Convertido + " - " + num2Convertido + " = " + resultado);
             }
 
             if (rbDivisao.Checked)
@@ -42,7 +42,7 @@ namespace Calculadora.WinApp
                 int calculo = num1Convertido / num2Convertido;
                 string resultado = Convert.ToString(calculo);
                 lblResultado.Text = resultado;
-                Historico.Items.Add(num1Convertido + "/" + num2Convertido + "=" + resultado);
+                Historico.Items.Add(num1Convertido + " / " + num2Convertido + " = " + resultado);
             }
 
             if (rbMultiplicacao.Checked)
@@ -50,7 +50,7 @@ namespace Calculadora.WinApp
                 int calculo = num1Convertido * num2Convertido;
                 string resultado = Convert.ToString(calculo);
                 lblResultado.Text = resultado;
-                Historico.Items.Add(num1Convertido + "*" + num2Convertido + "=" + resultado);
+                Historico.Items.Add(num1Convertido + " * " + num2Convertido + " = " + resultado);
             }
 
 
@@ -103,7 +103,7 @@ namespace Calculadora.WinApp
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(txtbValor1.Text, "[^0-9]"))
             {
-                MessageBox.Show("Por favor, informe apenas numeros.","Atenção");
+                MessageBox.Show("Por favor, informe apenas numeros.","AtenÃ§Ã£o");
                 txtbValor1.Text = txtbValor1.Text.Remove(txtbValor1.Text.Length - 1);
             }
         }
@@ -127,7 +127,7 @@ namespace Calculadora.WinApp
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(txtbValor2.Text, "[^0-9]"))
             {
-                MessageBox.Show("Por favor, informe apenas numeros.","Atenção");
+                MessageBox.Show("Por favor, informe apenas numeros.","AtenÃ§Ã£o");
                 txtbValor2.Text = txtbValor2.Text.Remove(txtbValor2.Text.Length - 1);
             }
         }
