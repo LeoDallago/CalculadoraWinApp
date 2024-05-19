@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             lblTitulo = new Label();
             btnCalcular = new Button();
             pictureBox1 = new PictureBox();
@@ -264,6 +265,7 @@
             Controls.Add(btnCalcular);
             Controls.Add(lblTitulo);
             ForeColor = SystemColors.ButtonHighlight;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
